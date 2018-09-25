@@ -33,8 +33,9 @@ main{
 }
 
 #addform{
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     border-bottom: 2px solid #F5F5F5;
+    border-width: 75%;
 }
 
 #input{
@@ -60,7 +61,7 @@ ul li {
     border-radius: 5px;
     padding: 5px;
     display: grid;
-    width: 300px;
+    width: 350px;
     grid-template-rows: 1fr;
     grid-template-columns: 10% 75% 10%; 
     text-align: left;
