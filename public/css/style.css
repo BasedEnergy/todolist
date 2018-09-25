@@ -28,14 +28,13 @@ h1{
 
 main{
     margin-top: 25px;
-    margin:auto;
     text-align: center;
     padding: 10px;
 }
 
 #input{
     width: 300px;
-    height: 20px;
+    height: 22px;
     border-radius: 5px;
     border: 1px solid #9A0D5F;
     background-color: #F5F5F5;
@@ -54,7 +53,7 @@ main{
 
 ul li {
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     display: grid;
     width: 300px;
     grid-template-rows: 1fr;
