@@ -1,5 +1,4 @@
 body{
-    height: 100vh;
     font-family: 'roboto', sans-serif; 
 }
 
@@ -43,21 +42,20 @@ main{
 }
 
 #list{
-    display: flex;
+    display: block;
     align-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    height: 22px;
-    padding: 2px;
-    border-radius: 6px;
 }
 
 li {
     width: 300px;
     padding: 15px;
     background-color: #F5F5F5;
+    height: 22px;
+    padding: 2px;
+    border-radius: 6px;
 }
 
 
