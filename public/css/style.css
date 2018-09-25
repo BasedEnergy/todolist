@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     font-family: 'roboto', sans-serif; 
 }
 
@@ -27,7 +28,7 @@ main{
 
 #input{
     width: 300px;
-    height: 18px;
+    height: 20px;
     border-radius: 5px;
     border: 1px solid #9A0D5F;
     background-color: #F5F5F5;
@@ -41,6 +42,18 @@ main{
     background-color: rgba(0,0,0,0);
 }
 
+#list{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 22px;
+    padding: 2px;
+    border-radius: 6px;
+}
+
 li {
     width: 300px;
     padding: 15px;
@@ -51,6 +64,22 @@ li {
 
 @media only screen and (min-width: 600px){
 
+    body {
+        margin: auto;
+        margin-top: 5%;
+        width: 80%;
+        height: 90%;
+        border: double 1px transparent;
+        border-radius: 6px;
+        background-image: linear-gradient(white, white), radial-gradient(circle at top left, cyan, purple);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
 
+        #input {
+            width: 80%;
+            height: 22px;
+        }
 
 }
+
