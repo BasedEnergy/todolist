@@ -32,6 +32,11 @@ main{
     padding: 10px;
 }
 
+#addform{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #F5F5F5;
+}
+
 #input{
     width: 300px;
     height: 22px;
