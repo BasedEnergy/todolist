@@ -4,6 +4,7 @@ body{
 
 header{
     height: 100px;
+    width: 100%;
     background-image: linear-gradient(to right, #9A0D5F, #682F8C); 
     font-family: 'roboto', sans-serif;
     font-size: 35pt;
@@ -42,16 +43,15 @@ main{
 }
 
 #list{
-    display: block;
+    display: grid;
     align-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
     text-align: center;
 }
 
-li {
+ul li {
     width: 250px;
     padding-top: 15px;
     background-color: #F5F5F5;
