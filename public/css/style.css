@@ -1,4 +1,9 @@
 body{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    margin: 0px;
     font-family: 'roboto', sans-serif; 
 }
 
@@ -12,6 +17,8 @@ header{
     margin-top: 0;
     color: white;
     margin-bottom: 20px;
+    grid-row: span 1;
+    grid-column: span 1;
 }
 
 h1{
@@ -46,18 +53,18 @@ main{
     display: grid;
     align-content: center;
     align-items: center;
-    margin-left: 50%;
-    margin-right: 50%;
     text-align: center;
 }
 
 ul li {
-    width: 250px;
-    padding-top: 15px;
-    background-color: #F5F5F5;
-    height: 22px;
-    padding: 2px;
-    border-radius: 6px;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 10% 75% 10%; 
+    text-align: left;
+    margin: 20px auto;
 }
 
 
