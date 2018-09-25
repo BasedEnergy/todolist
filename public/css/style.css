@@ -47,10 +47,13 @@ main{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: center;
+    text-align: center;
 }
 
 li {
-    width: 300px;
+    display: inline-block;
+    width: 250px;
     padding: 15px;
     background-color: #F5F5F5;
     height: 22px;
